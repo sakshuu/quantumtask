@@ -21,8 +21,8 @@ const Cards = () => {
   <div className="row cards">
     <h6 className='mb-4 t-bold'>More by Pixeleton</h6>
 {
-   data?.map(item => <div className="col-md-3 mb-4 main-cards">
-    <img src={item?.img} className='item-img' width={200} alt="" />
+   data?.map(item => <div className="col-md-3 col-sm-12 mb-4 main-cards">
+    <img src={item?.img} className='item-img' width={"90%"} alt="" />
     <div className='card-content d-flex gap-4'>
     <p><i class="bi bi-heart"></i></p>
     <p><i class="bi bi-save"></i></p>

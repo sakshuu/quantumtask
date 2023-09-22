@@ -22,54 +22,6 @@ const Signup = () => {
 
 
 <h4 className='t-bold'>Sign in to Dribbble</h4>
-                {/* <div>
-                  <label for="name" class="form-label">First name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    placeholder="Enter your name"
-                  />
-                  <div class="valid-feedback">Looks good!</div>
-                  <div class="invalid-feedback">Please choose a username.</div>
-                </div>
-                <div class="mt-2">
-                  <label for="email" class="form-label">First Email</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="email"
-                    placeholder="Enter Your Email"
-                  />
-                  <div class="valid-feedback">Looks good!</div>
-                  <div class="invalid-feedback">Please choose a username.</div>
-                </div>
-                <div class="mt-2">
-                  <label for="password" class="form-label">Password</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="password"
-                    placeholder="Enter Your Password"
-                  />
-                  <div class="valid-feedback">Looks good!</div>
-                  <div class="invalid-feedback">Please choose a password.</div>
-                </div>
-                <div class="mt-2">
-                  <label for="cpassword" class="form-label"
-                    >Confirm Password</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="cpassword"
-                    placeholder="Confirm Your Password"
-                  />
-                  <div class="valid-feedback">Looks good!</div>
-                  <div class="invalid-feedback">
-                    Please Recheck Your Password.
-                  </div>
-                </div> */}
                 <button type="button" class="btn btn-r btn-dark w-100 mt-4">
                 <img src={google} width={18} alt="" />  <span className='p-2'>Sign up with Google</span> 
                 </button>
