@@ -19,12 +19,9 @@ const Login = () => {
      </div>
         </div>
     <div className="col-md-8">
-        {/* <div class="container"> */}
-              {/* <div class="row"> */}
+
                 <div class="col-sm-6 offset-sm-3 login-form">
-                  {/* <div class="card"> */}
-                    {/* <div class="card-header">Login</div> */}
-                    {/* <div class="card-body"> */}
+
                     <h4 className='mt-4 '>Sign in to Dribbble</h4>
                     <button type="button" class="btn mt-4 btn-r btn-light w-100 mt-3">
                      <img src={google} alt="" width={18} />  <span className='p-2'>Sign in with Google</span> 
@@ -58,10 +55,7 @@ const Login = () => {
                       <p class="center mt-3 d-flex">
                         Dont Have Account? <Link className='nav-link p-2' to="/signup"> Sign Up</Link>
                       </p>
-                    {/* </div>
-                  </div>
-                </div>
-              </div> */}
+
             </div>
     </div>
   </div>

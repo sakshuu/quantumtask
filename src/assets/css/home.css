@@ -1,7 +1,6 @@
 
 .main-card{
     width: 100%;
-    /* margin-top: 10%; */
 
 }
 .home-p{
@@ -24,14 +23,7 @@
     border-radius: 50px;
 }
 
-/* .home-card-img{
-    margin-top: -70px;
-} */
-
-
-
   .hrStyle{
     width: 900%;
-    /* margin-bottom: -10%; */
     border-top: 1px solid #000;
   }
