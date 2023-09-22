@@ -13,14 +13,14 @@ const Navbottom = () => {
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
           
-            <a class="nav-link active" aria-current="page" href="#">For designers</a>
-            <a class="nav-link active" aria-current="page" href="#">Hire talent</a>
-            <a class="nav-link active" aria-current="page" href="#">Inspiration</a>
-            <a class="nav-link active" aria-current="page" href="#">Advertising</a>
-            <a class="nav-link active" aria-current="page" href="#">Blog</a>
-            <a class="nav-link active" aria-current="page" href="#">About</a>
-            <a class="nav-link active" aria-current="page" href="#">Careers</a>
-            <a class="nav-link active" aria-current="page" href="#">Support</a>
+            <a class="nav-link active t-bold p-4" aria-current="page" href="#">For designers</a>
+            <a class="nav-link active t-bold p-4" aria-current="page" href="#">Hire talent</a>
+            <a class="nav-link active t-bold p-4" aria-current="page" href="#">Inspiration</a>
+            <a class="nav-link active t-bold p-4" aria-current="page" href="#">Advertising</a>
+            <a class="nav-link active t-bold p-4" aria-current="page" href="#">Blog</a>
+            <a class="nav-link active t-bold p-4" aria-current="page" href="#">About</a>
+            <a class="nav-link active t-bold p-4" aria-current="page" href="#">Careers</a>
+            <a class="nav-link active t-bold p-4" aria-current="page" href="#">Support</a>
           {/* </li> */}
         </div>
 

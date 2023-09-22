@@ -30,3 +30,18 @@
   .signu{
     max-width: 10% !important;
   }
+
+  .login-form{
+margin-top: 8%;
+  }
+
+  .signup-form{
+    margin-top: 10%;
+  }
+  .bottem{
+    margin-top: 16%;
+    margin-bottom: 7%;
+  }
+  .f-s{
+font-size: 13px;
+  }

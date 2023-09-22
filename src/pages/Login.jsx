@@ -1,6 +1,7 @@
 import React from 'react'
-import { login } from '../assets/img'
+import { google, login } from '../assets/img'
 import "./../assets/css/login_signup.css"
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return <>
@@ -11,7 +12,6 @@ const Login = () => {
      <div className='video-container'>
           <video autoPlay muted loop className='login-video'>
             <source src={login} type="video/mp4" />
-            {/* <p className='fornt'>Dribbble</p> */}
           </video>
           <div className="overlay-text">
               Dribbble
@@ -19,12 +19,17 @@ const Login = () => {
      </div>
         </div>
     <div className="col-md-8">
-        <div class="container">
-              <div class="row">
-                <div class="col-sm-6 offset-sm-3">
-                  <div class="card">
-                    <div class="card-header">Login</div>
-                    <div class="card-body">
+        {/* <div class="container"> */}
+              {/* <div class="row"> */}
+                <div class="col-sm-6 offset-sm-3 login-form">
+                  {/* <div class="card"> */}
+                    {/* <div class="card-header">Login</div> */}
+                    {/* <div class="card-body"> */}
+                    <h4 className='mt-4 '>Sign in to Dribbble</h4>
+                    <button type="button" class="btn mt-4 btn-r btn-light w-100 mt-3">
+                     <img src={google} alt="" width={18} />  <span className='p-2'>Sign in with Google</span> 
+                      </button>
+                      <p className='text-muted t-center mt-4'>or sign with email</p>
                       <div>
                         <label for="email" class="form-label">First Email</label>
                         <input
@@ -47,16 +52,16 @@ const Login = () => {
                         <div class="valid-feedback">Looks good!</div>
                         <div class="invalid-feedback">Please choose a username.</div>
                       </div>
-                      <button type="button" class="btn btn-primary w-100 mt-3">
-                        Login
+                      <button type="button" class="btn btn-dark btn-r w-100 mt-3">
+                        Sign In
                       </button>
-                      <p class="text-center mt-3">
-                        Dont Have Account? <a href="#">Create Account</a>
+                      <p class="center mt-3 d-flex">
+                        Dont Have Account? <Link className='nav-link p-2' to="/signup"> Sign Up</Link>
                       </p>
-                    </div>
+                    {/* </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
     </div>
   </div>

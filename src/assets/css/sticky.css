@@ -3,4 +3,11 @@
     top: 20px;
     width:max-content;
     margin-left:auto;
+    padding-right: 20px;
+}
+.icons-r{
+    height: 38px;
+    width: 38px;
+    border-radius: 100%;
+    border: 1px solid #d8d4d4;
 }

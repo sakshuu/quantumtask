@@ -18,7 +18,7 @@ const Cards = () => {
         },
     ]
   return <>
-  <div className="row">
+  <div className="row cards">
     <h6 className='mb-4 t-bold'>More by Pixeleton</h6>
 {
    data?.map(item => <div className="col-md-3 mb-4 main-cards">

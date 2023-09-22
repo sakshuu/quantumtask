@@ -1,7 +1,10 @@
 .main-cards{
    position: relative !important; 
+   /* margin-top: 4%; */
 }
-
+.cards{
+    margin-top: 7%;
+}
 .card-content{
     display: none !important;
     position: absolute;

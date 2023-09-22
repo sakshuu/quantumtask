@@ -6,20 +6,20 @@ const MyFooter = () => {
 <div className='footer d-flex'>
 
   <div className='d-flex gap-2'>
-<span>@2023 Dribbble</span>
-<span>Terms</span>
-<span>Privacy</span>
-<span>Cookies</span>
+<span className='text-muted'>@2023 Dribbble</span>
+<span className='text-muted'>Terms</span>
+<span className='text-muted'>Privacy</span>
+<span className='text-muted'>Cookies</span>
   </div>
 
-  <div className='ms-auto d-flex gap-2'>
-<span>Jobs</span>
-<span>Designers</span>
-<span>Freelancers</span>
-<span>Tages</span>
-<span>Places</span>
-<span>Resources</span>
-<span></span>
+  <div className='ms-auto d-flex gap-2 '>
+<span className='text-muted'>Jobs</span>
+<span className='text-muted'>Designers</span>
+<span className='text-muted'>Freelancers</span>
+<span className='text-muted'>Tages</span>
+<span className='text-muted'>Places</span>
+<span className='text-muted'>Resources</span>
+<span className='text-muted'></span>
   </div>
 
 </div>
