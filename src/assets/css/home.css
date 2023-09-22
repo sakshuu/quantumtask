@@ -1,0 +1,26 @@
+.img-pic{
+    border-radius: 25px;
+}
+.main-card{
+    width: 100%;
+
+}
+.main{
+    width: 70%;
+}
+
+.text-f{
+    font-size: 18px;
+}
+
+.line{
+    border-style: dashed;
+    width: 200px;
+}
+.img-r{
+    border-radius: 50px;
+}
+
+/* .home-card-img{
+    margin-top: -70px;
+} */
